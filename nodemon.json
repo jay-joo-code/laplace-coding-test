@@ -1,0 +1,13 @@
+{
+  "ignore": [
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    "node_modules",
+    "src/client"
+  ],
+  "watch": [
+    "src/server"
+  ],
+  "exec": "ts-node --transpile-only --files src/server/",
+  "ext": "ts"
+}
